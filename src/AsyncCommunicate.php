@@ -2,11 +2,7 @@
 namespace SmartBridge;
 use SmartBridge\Interfaces\CommunicateInterface;
 
-class AsyncCommunicate implements CommunicateInterface
+class AsyncCommunicate extends Request
 {
 
-    public function handle(string $value): string
-    {
-        return $value;
-    }
 }
